@@ -2,4 +2,5 @@
 hostname
 uptime
 date
-cat /etc/redhat-release
+#cat /etc/redhat-release
+pwd
