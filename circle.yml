@@ -1,7 +1,7 @@
 test:
   override:
     timeout: 15
-    - >
+    - |
       (if [ "TRUE" ]; then
         echo "Starting the build..."
         sleep 10
