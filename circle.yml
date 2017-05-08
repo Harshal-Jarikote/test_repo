@@ -1,4 +1,4 @@
 test:
   override:
-    - (if [ "TRUE" ]; echo "Starting the build..."; else; echo "skipping the build (as not triggered by nightly API call)";fi)
+    - (if [ "TRUE" ]; then echo "Starting the build..."; else echo "skipping the build (as not triggered by nightly API call)"; fi)
   timeout: 10
