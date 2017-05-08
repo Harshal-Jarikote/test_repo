@@ -1,6 +1,6 @@
 test:
   override:
-    - (if [ "TRUE" ]; then
+    (if [ "TRUE" ]; then
         echo "Starting the build..."
         sleep 15
       else
