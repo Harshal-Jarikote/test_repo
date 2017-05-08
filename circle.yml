@@ -7,5 +7,5 @@ test:
           
       else
         echo "skipping the build (as not triggered by nightly API call)"
-      fi:
+      fi :
         timeout : 30
