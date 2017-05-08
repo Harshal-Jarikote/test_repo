@@ -3,9 +3,8 @@ test:
     - |
       if [ "TRUE" ]; then
         echo "Starting the build..."
-        $(sleep 60)
-          
+        sleep 10
       else
         echo "skipping the build (as not triggered by nightly API call)"
       fi;:
-        timeout : 30
+        timeout : 12
