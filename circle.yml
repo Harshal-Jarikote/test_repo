@@ -6,5 +6,4 @@ test:
         sleep 10
       else
         echo "skipping the build (as not triggered by nightly API call)"
-      fi;:
-        timeout : 12
+      fi;
