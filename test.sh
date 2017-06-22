@@ -5,3 +5,4 @@ date
 #cat /etc/redhat-release
 echo "test file.." > /tmp/test_repo_run.txt
 pwd
+echo "test commit for PR"
