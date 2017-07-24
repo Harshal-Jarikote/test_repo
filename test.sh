@@ -6,3 +6,4 @@ date
 echo "test file.." > /tmp/test_repo_run
 pwd
 cat /tmp/test_repo_run
+rm -f /tmp/test_repo_run
